@@ -8,4 +8,5 @@ domain_name("https://www.cnet.com") == "cnet"
 """
 
 def domain_name(url):
+    # This works but should probably use regex for performace
     return url.split("//")[-1].split("www.")[-1].split(".")[0]
