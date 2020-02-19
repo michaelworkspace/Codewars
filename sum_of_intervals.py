@@ -16,6 +16,8 @@ The sum of the lengths of these intervals is 7. Since [1, 4] and [3, 5] overlap,
 
 """
 
+# Method 1
+
 def sum_of_intervals(intervals):
     numbers = []
     for interval in intervals:
@@ -23,3 +25,7 @@ def sum_of_intervals(intervals):
             numbers.append(index)
     return len(set(numbers))
 
+# One-liner
+
+def sum_of_intervals(intervals):
+    return len(set([x for (a, b) in intervals for x in range(a, b)]))
