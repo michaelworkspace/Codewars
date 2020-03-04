@@ -21,6 +21,8 @@ Examples
 
 """
 
+# Solution 1
+
 def flatten_me(lst):
     arr = []
     for item in lst:
@@ -30,3 +32,16 @@ def flatten_me(lst):
         else:
             arr.append(item)
     return arr
+
+# Solution 2
+
+def flatten_me(lst):
+    arr = []
+    for item in lst:
+        if isinstance(item, list):
+            for value in item:
+                arr.append(value)
+        else:
+            arr.append(item)
+    return arr
+
