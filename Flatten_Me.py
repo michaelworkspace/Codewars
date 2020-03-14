@@ -21,6 +21,7 @@ Examples
 
 """
 
+
 # Solution 1
 
 def flatten_me(lst):
