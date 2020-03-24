@@ -14,7 +14,7 @@ fisHex("redlionfish") -> e,d,f -> XOR -> 12
 
 
 def fisHex(name: str) -> int:
-    hexachars = 'abcdef'
+    hexachars = "abcdef"
     name = name.lower()
     result = 0
 
