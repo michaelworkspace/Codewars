@@ -15,6 +15,8 @@ Alternate capitalization
 
 String array revisal
 """
+
+
 def capitalize(s,ind):
 # Traditional Method
 #
