@@ -10,7 +10,6 @@ Based on: http://oj.leetcode.com/problems/two-sum/
 twoSum [1, 2, 3] 4 === (0, 2)
 """
 
-
 def two_sum(numbers, target):
     # naive approach
     for i in range(len(numbers)):
