@@ -16,6 +16,8 @@ def max_sequence_bruteforce(arr: List[int]) -> int:
     # Brute force solution time complexity O(n^3)
     if len(arr) == 0:
         return 0
+    if all(num < 0 for num in arr):
+        return 0
     max_sum = arr[0]
     for i in range(len(arr)):
         for j in range(i + 1, len(arr) + 1):
@@ -29,6 +31,8 @@ assert max_sequence_bruteforce([-2, 1, -3, 4, -1, 2, 1, -5, 4]) == 6
 def max_sequence(arr: List[int]) -> int:
     # Time complexity O(n)
     if len(arr) == 0:
+        return 0
+    if all(num < 0 for num in arr):
         return 0
     curr_sum = arr[0]
     max_sum = arr[0]
