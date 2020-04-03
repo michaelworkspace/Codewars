@@ -14,6 +14,7 @@ Example:
 "" -> 0
 """
 
+
 def longest_palindrome(s: str) -> int:
     # Traditional approach with nested for loops
     #     ans = 0
