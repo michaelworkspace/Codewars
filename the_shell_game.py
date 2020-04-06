@@ -19,6 +19,7 @@ find_the_ball(0, [(0, 1), (2, 1), (0, 1)]) == 2
 There aren't necessarily only three cups in this game, but there will be at least two. You can assume all swaps are valid, and involve two distinct indices.
 """
 
+
 from typing import List, Tuple
 
 
