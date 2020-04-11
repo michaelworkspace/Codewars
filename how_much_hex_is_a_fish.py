@@ -12,6 +12,7 @@ Example
 fisHex("redlionfish") -> e,d,f -> XOR -> 12
 """
 
+
 def fisHex(name: str) -> int:
     hexachars = "abcdef"
     name = name.lower()
