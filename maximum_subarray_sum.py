@@ -42,3 +42,13 @@ def max_sequence(arr: List[int]) -> int:
     return max_sum
 
 assert max_sequence([-2, 1, -3, 4, -1, 2, 1, -5, 4]) == 6
+
+def max_subarray(nums):
+    # Kadane's Algorithm
+    largest = -float("inf")
+    current = 0
+    for num in nums:
+	    current += num
+	    largest = max(current, largest)
+	    current = max(current, 0)
+    return largest
