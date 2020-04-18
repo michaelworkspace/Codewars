@@ -12,6 +12,7 @@ iq_test("1 2 1 1") => 2 // Second number is even, while the rest of the numbers 
 """
 
 
+
 def iq_test(numbers):
     numbers = [int(i) for i in numbers.split()]
     evens, odds = [], []
