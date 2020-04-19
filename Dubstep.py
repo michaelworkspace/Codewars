@@ -19,7 +19,6 @@ song_decoder("WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
 """
 
 
-
 def song_decoder(song):
     s1 = song.replace("WUBWUB", " ")
     s2 = s1.replace("WUB", " ")
