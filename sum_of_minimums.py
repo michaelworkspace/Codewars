@@ -18,7 +18,11 @@ from typing import List
 
 
 def sum_of_minimums(numbers: List[int]) -> int:
-    res = 0
-    for item in numbers:
-        res += min(item)
-    return res
+##    # Traditional approach
+##    res = 0
+##    for item in numbers:
+##        res += min(item)
+##    return res
+
+    # One-liner
+    return sum(min(rows) for rows in numbers)
