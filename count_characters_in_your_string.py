@@ -10,7 +10,6 @@ from collections import Counter
 
 
 def count(string):
-
 # Traditional approach using dictionary
 #     d = {}
 #     for char in set(string):
