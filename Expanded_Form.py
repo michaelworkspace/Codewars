@@ -8,7 +8,6 @@ NOTE: All numbers will be whole numbers greater than 0.
 """
 
 
-
 def expanded_form(num):
     num = str(num)
     ans = ''
