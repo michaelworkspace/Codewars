@@ -7,7 +7,6 @@ expanded_form(70304) # Should return '70000 + 300 + 4'
 NOTE: All numbers will be whole numbers greater than 0.
 """
 
-
 def expanded_form(num):
     num = str(num)
     ans = ''
