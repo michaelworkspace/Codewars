@@ -22,7 +22,7 @@ revrot("563000655734469485", 4) --> "0365065073456944"
 
 def revrot(s, sz):
     if sz <= 0 or len(s) == 0:
-        return ""
+        return ''
     
     l = [s[i:i+sz] for i in range(0, len(s), sz)]
     
