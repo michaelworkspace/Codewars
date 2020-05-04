@@ -17,6 +17,7 @@ Note: You will be always given non-empty list containing Positive values.
 from typing import List
 
 
+
 def sum_of_minimums(numbers: List[int]) -> int:
 ##    # Traditional approach
 ##    res = 0
