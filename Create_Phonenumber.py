@@ -8,7 +8,6 @@ Don't forget the space after the closing parentheses!
 """
 
 
-
 def create_phone_number(n):
     first, sec, third = '', '', ''
     for i in n[:3]:
