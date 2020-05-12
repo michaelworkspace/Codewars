@@ -45,4 +45,3 @@ def flatten_me(lst):
         else:
             arr.append(item)
     return arr
-
