@@ -23,7 +23,6 @@ Examples
 
 
 # Solution 1
-
 def flatten_me(lst):
     arr = []
     for item in lst:
@@ -35,7 +34,6 @@ def flatten_me(lst):
     return arr
 
 # Solution 2
-
 def flatten_me(lst):
     arr = []
     for item in lst:
