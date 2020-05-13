@@ -1,6 +1,8 @@
 """
 Missing problem question!!!
 """
+
+
 def xo(s: str) -> bool:
     x = o = 0
     for i in s.lower():
