@@ -6,8 +6,8 @@ Given a string, detect whether or not it is a pangram. Return True if it is, Fal
 
 
 def is_pangram(s):
-    alphabet = 'abcdefghijklmnopqrstuvwxyz'
-    pangram = ''
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    pangram = ""
     for i in s.lower():
         if i.isalpha():
             pangram += i
