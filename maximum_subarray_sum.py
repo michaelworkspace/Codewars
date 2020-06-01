@@ -9,7 +9,6 @@ Empty list is considered to have zero greatest sum. Note that the empty list or 
 """
 
 
-
 from typing import List
 
 
