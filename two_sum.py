@@ -15,7 +15,7 @@ twoSum [1, 2, 3] 4 === (0, 2)
 
 
 def two_sum(numbers, target):
-    # naive approach: time complexity = O(n)^2, space complexity = O(1)
+    # naive approach: time complexity = O(n^2), space complexity = O(1)
     for i in range(len(numbers)):
         for j in range(i+1, len(numbers)):
             if numbers[i] + numbers[j] == target:
